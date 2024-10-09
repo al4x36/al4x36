@@ -1,5 +1,5 @@
 import random
-print("Play, rock, paper, scissors, lizard, spock!")
+print("Let's play Rock, Paper, Scissors, Lizard, Spock!")
 choices = ["rock", "paper", "scissors", "spock", "lizard"]
 userChoice = input("Choose rock, paper, spock, lizard, or scissors: ").lower()
 computerChoice = random.choice(choices)
